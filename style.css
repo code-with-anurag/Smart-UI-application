@@ -1,0 +1,250 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Poppins", sans-serif;
+    
+}
+.container{
+    height:auto;
+    width:100%;
+    display:flex;
+}
+.leftside{
+    width:50%;
+    height:auto;
+}
+.smartsave{
+    height:80px;
+    width:100%;
+    margin-top:20px;
+}
+.header{
+    height:100%;
+    width:60%;
+    margin:auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.header p{
+    font-size:30px;
+    font-weight: 600;
+    padding-right:85px;
+}
+.smartsave img{
+    width:22%;
+    margin-right:px;
+}
+.block{
+    height:auto;
+    width:100%;
+    margin-top:100px;
+}
+.smallblock{
+    height:auto;
+    width:60%;
+    margin:auto;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+     background-color: white;
+}
+#para-1{
+    font-size:1.6rem;
+    font-weight: 600;
+}
+#para-2{
+    color:rgb(77, 74, 74);
+    margin-top:6px;
+    font-size: 14px;
+}
+.div1{
+    height:45px;
+    width:76%;
+    margin-top:15px;
+    border-radius:10px;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-inline:6px;
+    background-color:rgb(238, 233, 225);
+}
+#btn-1{
+    height:35px;
+    width:48%;
+    font-weight: 600;
+    border-radius:5px;
+    background-color:white;
+    border:none;
+}
+#btn-2{
+    height:32px;
+    width:46%;
+    border-radius:5px;
+    color:gray;
+    font-weight: 500;
+    border:none;
+    background-color:rgb(238, 233, 225);
+    
+}
+.div2{
+    height:50px;
+    width:77%;
+    display:flex;
+    margin-top:20px;
+    border-radius:10px;
+    border:0.5px solid rgb(216, 208, 208);
+}
+.maildiv{
+    width:20%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:12px;
+}
+#one{
+    font-size:18px;
+}
+#two{
+    font-size:30px;
+    color:rgb(202, 194, 194);
+}
+.addressdiv{
+    width:80%;
+    display:flex;
+}
+.address-span{
+    width:80%;
+    height:100%;
+}
+#para-3{
+    font-size:12px;
+    color:gray;
+    font-weight: 600;
+    margin-top:5px;
+}
+#para-4{
+    font-size:14px;
+    font-weight: 600;
+}
+.check-span{
+    width:20%;
+    height:100%;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.check{
+  height:18px;
+  width:18px;
+  border-radius:10px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(50, 187, 50);
+}
+.check i{
+   font-size:10px;
+   color:white;
+   font-weight:900;
+}
+.continue{
+    height:50px;
+    width:77%;
+    border-radius:10px;
+    margin-top:20px;
+    background-color: rgb(24,119,242);
+    color:white;
+    border:none;
+    font-size: 15px;
+}
+.box{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+    margin-top:25px;
+}
+.box p{
+    font-size: 12px;
+    font-weight: 500;
+}
+.line1{
+    height:1px;
+    width:22%;
+    background-color:rgb(223, 213, 213);
+}
+.line2{
+    height:1px;
+    width:22%;
+    background-color: rgb(228, 216, 216);
+}
+.socialmedia{
+    width:77%;
+    height:auto;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    margin-top:25px;
+    gap:17px;
+}
+.app{
+    height:45px;
+    width:45px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:30px;
+}
+.google{
+    border:1px solid rgb(141, 139, 139);
+}
+.app i{
+    font-size:20px;
+}
+.apple{
+    background-color: black;
+}
+.apple i{
+  color:white;
+}
+.facebook{
+  background-color: rgb(24,119,242);
+}
+.facebook i{
+    color:white;
+}
+.last-para{
+    width:80%;
+    margin:auto;
+    margin-block:65px;
+    position:relative;
+    top:40px;
+}
+.last-para p{
+    text-align:center;
+    font-size:14px;
+    color:rgb(87, 85, 85);
+}
+.rightside{
+    width:50%;
+    height:auto;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDH3yZQRPYxsgsCF6h8ob0BWSZ16us_n1kOw&s);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.rightside p{
+    font-size: 2.5rem;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 600;
+    color:white;
+    margin-top:30px;
+    text-align: center;
+    text-shadow:1px 1px 10px white;
+    
+}
+
